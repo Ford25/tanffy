@@ -1,0 +1,55 @@
+.logo-section{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    min-height: 327px;
+    background: linear-gradient(96.82deg, #8B60EC 0%, #DFB026 0.01%, #282312 113.37%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .logo{
+        width: auto;
+      
+
+        img{
+            width: 250px;
+            width: 100%;
+        }
+        
+
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            
+            color: #FFFFFF;  
+            max-width: 250px;   
+            display: none;       
+        }
+    }
+
+    // .logo:hover{
+    //     img{
+    //         display: none;
+    //     }
+    //     h1{
+    //         display: block;
+    //     }
+    // }
+
+}
+
+@media(max-width:1120px){
+    .logo-section{
+        
+        .logo{
+            margin: 40px;
+        }
+    }
+}

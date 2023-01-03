@@ -1,0 +1,116 @@
+.footer-section{
+    width: 100%;
+    max-width: 2000px;
+    padding: 65px 95px;
+    position: relative;
+    margin: 0 auto;
+    border-top: 1px solid #B38A20;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+    .top-part{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 100%;
+
+        .logo-footer{
+            width: auto;        
+        }
+    
+        .links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            a{
+    
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20px;
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+            .line{
+                width: 38px;
+                height: 0px;
+                border: 1px solid #EFB82A;
+                transform: rotate(90deg);   
+                background-color: #EFB82A;         
+            }
+        }
+
+        .scroll-up{
+            display: flex;
+            justify-content: right;
+        }
+
+    }
+
+    .bottom-part{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 27px;
+        
+        color: #FFFFFF; 
+        margin-top: 35px;      
+    }
+}
+
+@media(max-width:950px){
+    .footer-section{
+        padding: 35px 95px;
+        .top-part{
+            flex-direction: column;
+
+            .logo-footer,.links{
+                margin-bottom: 40px;
+            }
+            .links{
+                a{
+                    text-align: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+        .bottom-part{
+            text-align: center;
+        }
+    }
+}
+
+
+@media(max-width:450px){
+    .footer-section{
+        padding: 35px 20px;
+        .top-part{
+            flex-direction: column;
+
+            .logo-footer,.links{
+                margin-bottom: 40px;
+            }
+            .links{
+                flex-direction: column;
+
+                .line{
+                    display: none;
+                }
+                a{
+                    text-align: center;
+                  padding-left: 10px;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .bottom-part{
+            text-align: center;
+        }
+    }
+}

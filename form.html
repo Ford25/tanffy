@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+    <!--AOS ANIMATION LINK-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Temporary Assistance for Needy Families For You</title>
+</head>
+<body>
+
+    
+    <!--NAVBAR SECTION-->
+    <header>
+        <div class="limiter">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-tanffy.png" alt="">
+                    </a>
+                </div>
+
+                <ul class="navlinks" id="links" >
+                    <li class="navitems" ><a href="index.html#home" class="itemlinks">Home</a></li>
+                    <li class="navitems"><a href="index.html#testimonials" class="itemlinks">Testimonials</a></li>
+                    <li class="navitems"><a href="index.html#categories" class="itemlinks">Categories</a></li>
+                </ul>
+
+                <div id="burger">
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- APPLICATION FORM -->
+
+    <div class="form-section" id="form">
+        <h1 data-aos="zoom-in">Registration <span>Form</span></h1>
+        <div class="line" data-aos="zoom-in"></div>
+        <h2 data-aos="zoom-in">ENTER THE REQUIRED DETAILS</h2>
+
+        <form  method='post' action='auto.php' >
+
+            <div class="title personal-info">
+                <h1>PERSONAL INFORMATION</h1>
+            </div>
+
+            <div class="form-wrapper set1">
+                <div class="data">
+                    <label class="subtitle" >FIRST NAME: </label>
+                    <input name="first" id="first" type="text" class="form-control" required>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >LAST NAME: </label>
+                    <input name="last" id="last" type="text" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-wrapper set2">
+                <div class="data">
+                    <label class="subtitle" >STREET ADDRESS: </label>
+                    <input name="address" id="address" type="text" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-wrapper set3">
+                <div class="data">
+                    <label class="subtitle" >ZIP: </label>
+                    <input name="zip" id="zip" type="number" class="form-control" required>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >CITY: </label>
+                    <input name="city" id="city" type="text" class="form-control" required>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >STATE: </label>
+                    <select name="state" id="state" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District of Columbia</option>
+                        <option value="FM">Federated States of Micronesia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="GU">Guam</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="MP">Northern Mariana Islands</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PW">Palau</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="PR">Puerto Rico</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VI">Virgin Islands</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>                        
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-wrapper set4">
+
+                <div class="data">
+                    <label class="subtitle" >GENDER: </label>
+                    <select name="gender" id="gender" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>          
+                    </select>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >WHAT IS YOUR AGE: </label>
+                    <select name="age" id="age" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="18-25">18-25</option>
+                        <option value="26-34">26-34</option>
+                        <option value="35-49">35-49</option>
+                        <option value="50-65">50-65</option>
+                        <option value="66-80">66-80</option>
+                        <option value="80+">80 +</option>
+                    </select>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >CITIZENSHIP STATUS: </label>
+                    <select name="status" id="status" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="U.S. Citizen">U.S. Citizen</option>
+                        <option value="Resident Alien">Resident Alien</option>
+                        <option value="Green Card Holder">Green Card Holder</option>
+                        <option value="Permanent Resident">Permanent Resident</option>
+                        <option value="Not Sure">Not Sure</option>                       
+                    </select>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >ETHNICITY </label>
+                    <select name="ethnicity" id="ethnicity" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="Asian American">Asian American</option>
+                        <option value="Black or African American">Black or African American</option>
+                        <option value="Hispanic">Hispanic</option>
+                        <option value="Latino">Latino</option>
+                        <option value="Middle Eastern American">Middle Eastern American</option>
+                        <option value="Multi-racial">Multi-racial</option>
+                        <option value="Native American">Native American</option>
+                        <option value="Native Hawaiian">Native Hawaiian</option>
+                        <option value="Other">Other</option>
+                        <option value="Pacific Islander">Pacific Islander</option>
+                        <option value="White">White</option>                                  
+                    </select>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >EMPLOYMENT STATUS: </label>
+                    <select name="employment" id="employment" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="Employed Full-Time">Employed Full-Time</option>
+                        <option value="Employed Part-Time">Employed Part-Time</option>
+                        <option value="Self Employed">Self Employed</option>
+                        <option value="Unemployed">Unemployed</option>
+                        <option value="Retired">Retired</option>
+                        <option value="Collecting Social Security">Collecting Social Security</option>
+                        <option value="Disabled">Disabled</option>                                  
+                    </select>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >PHONE NUMBER: </label>
+                    <input name="number" id="city" type="number" class="form-control" required>
+                </div>
+
+            </div>
+
+            
+
+
+            <div class="title funding-needs">
+                <h1>FUNDING NEEDS</h1>
+            </div>
+
+            <div class="radio-buttons">
+
+                <h1>Choose which type of funding you are interested in:</h1>
+
+                <div class="category-container">
+                    <div class="category-list">
+                        <input type="radio" id="c1" name="category" value="Business" checked>
+                        <label for="c1">
+                            <div class="content">
+                                <img src="images/c1.png" alt="">
+                                <h1>Business</h1>
+                            </div>
+                        </label>
+                    </div>
+    
+                    <div class="category-list">
+                        <input type="radio" id="c2" name="category" value="Community Assistance" checked>
+                        <label for="c2">
+                            <div class="content">
+                                <img src="images/c2.png" alt="">
+                                <h1>Community Assistance</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c3" name="category" value="Education" checked>
+                        <label for="c3">
+                            <div class="content">
+                                <img src="images/c3.png" alt="">
+                                <h1>Education</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c4" name="category" value="Elderly" checked>
+                        <label for="c4">
+                            <div class="content">
+                                <img src="images/c4.png" alt="">
+                                <h1>Elderly</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c5" name="category" value="Home Buyers" checked>
+                        <label for="c5">
+                            <div class="content">
+                                <img src="images/c5.png" alt="">
+                                <h1>Home Buyers</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c6" name="category" value="Home Improvement" checked>
+                        <label for="c6">
+                            <div class="content">
+                                <img src="images/c6.png" alt="">
+                                <h1>Home Improvement</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c7" name="category" value="Housing" checked>
+                        <label for="c7">
+                            <div class="content">
+                                <img src="images/c7.png" alt="">
+                                <h1>Housing</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c8" name="category" value="Inventions" checked>
+                        <label for="c8">
+                            <div class="content">
+                                <img src="images/c8.png" alt="">
+                                <h1>Inventions</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c9" name="category" value="Minorities / Demographic" checked>
+                        <label for="c9">
+                            <div class="content">
+                                <img src="images/c9.png" alt="">
+                                <h1>Minorities / Demographic</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c10" name="category" value="Misc" checked>
+                        <label for="c10">
+                            <div class="content">
+                                <img src="images/c10.png" alt="">
+                                <h1>Misc</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c11" name="category" value="Non-Profit" checked>
+                        <label for="c11">
+                            <div class="content">
+                                <img src="images/c11.png" alt="">
+                                <h1>Non-Profit</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c12" name="category" value="Personal Assistance" checked>
+                        <label for="c12">
+                            <div class="content">
+                                <img src="images/c12.png" alt="">
+                                <h1>Personal Assistance</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c13" name="category" value="Real Estate" checked>
+                        <label for="c13">
+                            <div class="content">
+                                <img src="images/c13.png" alt="">
+                                <h1>Real Estate</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c14" name="category" value="Veterans" checked>
+                        <label for="c14">
+                            <div class="content">
+                                <img src="images/c14.png" alt="">
+                                <h1>Veterans</h1>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="category-list">
+                        <input type="radio" id="c15" name="category" value="Women" checked>
+                        <label for="c15">
+                            <div class="content">
+                                <img src="images/c15.png" alt="">
+                                <h1>Women</h1>
+                            </div>
+                        </label>
+                    </div>
+
+
+                </div>
+               
+                
+
+               
+            </div>
+            
+            <div class="form-wrapper set5">
+                <div class="data">
+                    <label class="subtitle" >HOW MUCH MONEY ARE YOU GOING TO NEED?</label>
+                     
+                    <select name="money" id="money" class="form-control" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="$500-$10,000">$500-$10,000</option>
+                        <option value="$10,000 - $25,000">$10,000 - $25,000</option>
+                        <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+                        <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                        <option value="$100,000 or More">$100,000 or More</option>                   
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-wrapper set6">
+                <div class="data">
+                    <label class="subtitle" >DESCRIBE WHAT YOU WILL USE THE MONEY FOR:</label>
+                     
+                    <textarea name="message1" class="textarea" cols="64" rows="6" required ></textarea>
+                </div>
+            </div>
+
+            <div class="form-wrapper set7">
+                <div class="data">
+                    <label class="subtitle">WHAT UNIQUE THINGS WOULD SEPARATE YOU FROM OTHER APPLICANTS APPLYING FOR THIS MONEY?</label>
+                     
+                    <textarea name="message2" class="textarea" cols="64" rows="6" required ></textarea>
+                </div>
+            </div>
+
+            <div class="form-wrapper set8">
+                <div class="data">
+                    <label class="subtitle">WHAT EMAIL ADDRESS WOULD YOU LIKE TO USE FOR YOUR ONLINE GRANT APPLICATION ACCOUNT?</label>
+                     
+                    <input name="emailAdd" id="email" type="email" class="form-control" required>
+                </div>
+            </div>
+
+            
+
+            <div class="note">
+                <h2>** Your email is safe. We hate spam as much as you do!!</h2>
+                <h2>** Your Email will be your username for this website. Please double check it to be sure it is accurate!</h2>
+            
+                <div class="checkbox-container">
+                    <label class="checkbox" for="receive-email">
+                        <input type="checkbox" name="receiveEmail" value="Yes" checked="">Yes, I want to receive emails on New Funding Opportunities as well as New Tips!
+                    </label>
+                </div>
+
+                <div class="submit-button">
+                    <input type="submit" name="button" id="esub_button" value="SUBMIT" class="button__green button application__submit__button">
+                </div>
+            
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER SECTION -->
+
+    <div class="footer-section">
+        <div class="top-part">
+            <a href="index.html"><img class="logo-footer" src="images/logo-tanffy.png" alt=""></a>
+
+            <div class="links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <div class="line"></div>
+
+                <a href="mailto: support@tanfforyou.com">Email</a>
+                <div class="line"></div>
+
+                <a href="contact.html">Contact</a>
+                <div class="line"></div>
+
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+
+            <div class="scroll-up">
+                <a href="#"><img src="images/arrow-up.png" alt=""></a>
+            </div>
+        </div>
+
+        <h1 class="bottom-part">TANFFY © 2022. All rights reserved.</h1>
+    </div>
+
+
+
+
+
+    <!--MENUBAR SCRIPT-->
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+    crossorigin="anonymous"></script>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const links = document.getElementById('links');
+
+        burger.addEventListener('click', () => {
+            links.classList.toggle('active');
+        })
+
+        $("#links").click(() => {
+            links.classList.remove('active');
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("header").addClass("black");
+            }
+            else{
+                $("header").removeClass("black");
+            }
+        });
+    </script>
+
+    <!-- ANIMATION -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

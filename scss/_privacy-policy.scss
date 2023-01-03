@@ -1,0 +1,103 @@
+.privacy-policy{
+    width: 100%;
+    max-width: 2000px;
+    padding: 200px 95px 120px 95px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+
+    h1{
+        font-family: 'Crossten';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        color: #DAAD24;   
+        padding-bottom: 35px;     
+    }
+
+    h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.035em;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 20px;
+        color: #FFFFFF;        
+    }
+    a,span{
+        color: #DAAD24;
+    }
+}
+
+@media(max-width:900px){
+    .privacy-policy{
+        h1{
+            font-size: 60px;
+            padding-bottom: 15px;    
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+        h2{
+            font-size: 22px;
+            line-height: 38px;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width:600px){
+    .privacy-policy{
+        padding: 150px 50px 120px 30px;
+        h1{
+            font-size: 40px;
+            padding-bottom: 10px;    
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 0px;
+        }
+        h2{
+            font-size: 22px;
+            line-height: 28px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+@media(max-width:500px){
+    .privacy-policy{
+        padding: 150px 20px 120px 20px;
+        h1{
+            font-size: 40px;
+            padding-bottom: 10px;    
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 0px;
+        }
+        h2{
+            font-size: 22px;
+        }
+    }
+}

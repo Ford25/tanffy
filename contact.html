@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+     <!--AOS ANIMATION LINK-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Temporary Assistance for Needy Families For You</title>
+</head>
+<body>
+
+    
+    <!--NAVBAR SECTION-->
+    <header>
+        <div class="limiter">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-tanffy.png" alt="">
+                    </a>
+                </div>
+
+                <ul class="navlinks" id="links" >
+                    <li class="navitems" ><a href="index.html#home" class="itemlinks">Home</a></li>
+                    <li class="navitems"><a href="index.html#testimonials" class="itemlinks">Testimonials</a></li>
+                    <li class="navitems"><a href="index.html#categories" class="itemlinks">Categories</a></li>
+                </ul>
+
+                <div id="burger">
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- APPLICATION FORM -->
+
+    <div class="form-section" id="form">
+        <h1 data-aos="zoom-in">Contact Us Form</h1>
+        <div class="line" data-aos="zoom-in" ></div>
+        <h2 data-aos="zoom-in">FILL UP FORM OR CONTACT US VIA <br>(802) 772-0210</h2>
+
+        <form   method='post' action='contact.php'>
+
+            <div class="title personal-info">
+                <h1>CONTACT INFORMATION</h1>
+            </div>
+
+            <div class="form-wrapper set1">
+                <div class="data">
+                    <label class="subtitle" >FIRST NAME: </label>
+                    <input name="first" id="first" type="text" class="form-control" required>
+                </div>
+
+                <div class="data">
+                    <label class="subtitle" >LAST NAME: </label>
+                    <input name="last" id="last" type="text" class="form-control" required>
+                </div>
+                
+            </div>
+            
+            <div class="form-wrapper set1">
+                <div class="data">
+                    <label class="subtitle" >PHONE NUMBER: </label>
+                    <input name="number" id="city" type="number" class="form-control" required>
+                </div>
+                
+                <div class="data">
+                    <label class="subtitle" >ZIP CODE: </label>
+                    <input name="zip" id="zip" type="number" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-wrapper set2">
+                <div class="data">
+                    <label class="subtitle">EMAIL ADDRESS:</label>
+                     
+                    <input name="email" id="email" type="email" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-wrapper set2">
+                <div class="data">
+                    <label class="subtitle">SUBJECT:</label>
+                     
+                    <input name="subject" id="subject" type="text" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-wrapper set6">
+                <div class="data">
+                    <label class="subtitle" >MESSAGE:</label>
+                     
+                    <textarea name="message1" class="textarea" cols="64" rows="6" required ></textarea>
+                </div>
+            </div>
+
+            <div class="note">
+                
+
+                <div class="submit-button">
+                    <input type="submit" name="button" id="esub_button" value="SEND" class="button__green button application__submit__button">
+                </div>
+            
+            </div>
+            
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER SECTION -->
+
+    <div class="footer-section">
+        <div class="top-part">
+            <a href="index.html"><img class="logo-footer" src="images/logo-tanffy.png" alt=""></a>
+
+            <div class="links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <div class="line"></div>
+
+                <a href="mailto: support@tanfforyou.com">Email</a>
+                <div class="line"></div>
+
+                <a href="#">Contact</a>
+                <div class="line"></div>
+
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+
+            <div class="scroll-up">
+                <a href="#"><img src="images/arrow-up.png" alt=""></a>
+            </div>
+        </div>
+
+        <h1 class="bottom-part">TANFFY © 2022. All rights reserved.</h1>
+    </div>
+
+
+
+
+
+    <!--MENUBAR SCRIPT-->
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+    crossorigin="anonymous"></script>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const links = document.getElementById('links');
+
+        burger.addEventListener('click', () => {
+            links.classList.toggle('active');
+        })
+
+        $("#links").click(() => {
+            links.classList.remove('active');
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("header").addClass("black");
+            }
+            else{
+                $("header").removeClass("black");
+            }
+        });
+    </script>
+
+
+    <!-- ANIMATION -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

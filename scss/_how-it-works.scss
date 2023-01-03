@@ -1,0 +1,144 @@
+@font-face { font-family: CrosstenNormal; src: url('CrosstenBold.otf'); } 
+
+.how-it-works{
+    width: 100%;
+    max-width: 2000px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 95px 160px 95px;
+
+    .glow-effect{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+
+    h1{
+        font-family: 'Crossten';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 103%;
+        text-align: center;
+        letter-spacing: 0.055em;    
+        color: #FFFFFF;
+    }
+    span{
+        color:#FFC727 ;
+    }
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;    
+        max-width: 679px;
+        width: 100%;   
+        padding-top: 35px;
+    }
+
+    .guide-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 60px;
+
+        .guide{
+            width: 360px;
+            padding: 50px 34px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #FFC727;
+            margin: 42px;
+            transition: ease-in-out .1s;
+            
+            img{
+                width: 100px;
+                height: 100px;                
+            }
+
+            h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 45px;
+                color: #F8C32B;                
+            }
+            h2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;  
+                padding-top: 15px;              
+            }
+        }
+
+        .guide:hover{
+            background: rgba(248, 195, 43, 0.05);
+        }
+    }
+}
+
+@media(max-width: 1500px){
+    .how-it-works{
+        padding: 60px 50px 160px 50px;
+
+        .guide-container{
+            .guide{
+                margin: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    .how-it-works{
+        padding: 60px 95px 160px 95px;
+
+        .glow-effect{
+            width: 100%;
+        }
+
+        .guide-container{
+            .guide{
+                margin: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width:630px){
+    .how-it-works{
+        padding: 20px 20px 0 20px;
+
+        h1{
+            font-size: 42px;
+            line-height: 103%;
+        }
+    }
+}
+
+@media(max-width:435px){
+    .how-it-works{
+        .guide-container{
+            .guide{
+                width: 100%;
+                margin: 10px;
+            }
+        }
+    }
+}
